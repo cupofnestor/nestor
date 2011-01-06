@@ -1,0 +1,1 @@
+﻿package com.nestor.feeds  {	//import com.nestor.feeds.*;		public class feedTester {		public function feedTester() {			var myFeed:feedLoader=new feedLoader("http://www.guardian.co.uk/rss");		}	}	}
