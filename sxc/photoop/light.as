@@ -1,0 +1,1 @@
+﻿package  {	import flash.events.Event;		import flash.display.MovieClip;			public class light extends MovieClip {						public function light() {			this.stop();					}				public function blink():void				{			this.gotoAndPlay("blink");		}		public function flash():void				{			this.gotoAndPlay("flash");		}	}	}
