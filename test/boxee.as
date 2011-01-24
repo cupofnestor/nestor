@@ -1,0 +1,1 @@
+﻿package com.nestor.test {		import flash.display.MovieClip;			public class boxee extends extended {						public function boxee() {			trace("Value is "+val);		}	}	}

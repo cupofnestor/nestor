@@ -1,0 +1,1 @@
+﻿package com.nestor.test {	import flash.display.MovieClip;	public class baseclass extends MovieClip{	[Inspectable]	public var val:String;			public function baseclass() {			trace("Value is:"+val);		}		[Inspectable]		public function set Value(_val:String):void		{			val=_val;			trace("Setting");		}	}	}
