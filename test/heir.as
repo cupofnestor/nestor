@@ -1,0 +1,1 @@
+﻿package com.nestor.test {		import flash.display.MovieClip;	import com.nestor.elements.kiosk		public class heir extends kiosk {						public function heir() {			// constructor code		}	}	}
