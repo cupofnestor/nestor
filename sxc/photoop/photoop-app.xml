@@ -1,7 +1,7 @@
 <?xml version ="1.0" encoding="utf-8" ?>
 <application xmlns="http://ns.adobe.com/air/application/2.0">
 	<id>photoop</id>
-	<version>1.0</version>
+	<version>1.0.1</version>
 	<filename>photoop</filename>
 	<description></description>
 	<!-- To localize the description, use the following format for the description element.
@@ -34,4 +34,4 @@
 	<allowBrowserInvocation>false</allowBrowserInvocation>
 	<icon>
 	</icon>
-<supportedProfiles>desktop extendedDesktop</supportedProfiles></application>
+</application>
