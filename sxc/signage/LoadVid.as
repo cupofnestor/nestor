@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;	import flash.filesystem.*;	import flash.net.*;		public class LoadVid extends MovieClip {						public function LoadVid() {			// constructor code			FileReferenceList.browse()		}	}	}
