@@ -1,6 +1,10 @@
 <?xml version ="1.0" encoding="utf-8" ?>
 <application xmlns="http://ns.adobe.com/air/application/2.0">
+<<<<<<< HEAD
 	<id>SXCDigitalSignage</id>
+=======
+	<id>SXCSignage-1.02</id>
+>>>>>>> 0f13aef56f3b737bf7469235086194e166b22bb9
 	<version>1.02</version>
 	<filename>signv1.02</filename>
 	<description></description>
