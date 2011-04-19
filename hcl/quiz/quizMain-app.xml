@@ -34,4 +34,4 @@
 	<allowBrowserInvocation>false</allowBrowserInvocation>
 	<icon>
 	</icon>
-</application>
+<supportedProfiles>extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles></application>
