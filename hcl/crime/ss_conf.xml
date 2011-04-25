@@ -1,0 +1,27 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<node>
+	<full>true</full>
+	<master>
+		<host>127.0.0.1</host>
+		<windowX>0</windowX>
+		
+	</master>
+	
+	<slave1>
+		<server>127.0.0.1</server>
+		<port>4497</port>
+		<windowX>1024</windowX>
+	</slave1>
+	
+	<slave2>
+		<server>127.0.0.1</server>
+		<port>4498</port>
+		<windowX>2560</windowX>
+	</slave2>
+	
+	<slave3>
+		<server>127.0.0.1</server>
+		<port>4499</port>
+		<windowX>0</windowX>
+	</slave3>
+</node>
