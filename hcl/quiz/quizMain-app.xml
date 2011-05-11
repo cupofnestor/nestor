@@ -1,7 +1,7 @@
 <?xml version ="1.0" encoding="utf-8" ?>
 <application xmlns="http://ns.adobe.com/air/application/2.0">
 	<id>quizMain</id>
-	<version>0.10</version>
+	<version>1.0</version>
 	<filename>quizMain</filename>
 	<description></description>
 	<!-- To localize the description, use the following format for the description element.
@@ -19,7 +19,7 @@
 		<text xml:lang="ja">Japanese App name goes here</text>
 	</name>
 	-->
-	<copyright>Monadnock Media, inc. 2011</copyright>
+	<copyright></copyright>
 	<initialWindow>
 		<content>quizMain.swf</content>
 		<systemChrome>standard</systemChrome>
@@ -34,4 +34,4 @@
 	<allowBrowserInvocation>false</allowBrowserInvocation>
 	<icon>
 	</icon>
-<supportedProfiles>extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles></application>
+<supportedProfiles>desktop extendedDesktop</supportedProfiles></application>
