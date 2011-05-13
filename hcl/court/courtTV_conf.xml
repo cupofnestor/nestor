@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<config>
+	<window>
+		<screen1>
+			<width>768</width>
+			<height>1024</height>
+		</screen1>
+		<screen2>
+			<width>1440</width>
+			<height>900</height>
+		</screen2>
+	</window>
+	<net>
+		<host>10.35.35.52</host>
+		<path>/courtTV</path>
+		<amfphp>
+			<port>80</port>
+			<gateway>/amfphp/gateway.php</gateway>
+		</amfphp>
+		<sql>
+			<login>courtTV</login>
+			<pass>hcl</pass>
+		</sql>
+        <udp>
+            <host>127.0.0.1</host>
+            <port>4455</port>
+        </udp>
+	</net>
+</config>
