@@ -1,6 +1,7 @@
 <?xml version ="1.0" encoding="utf-8" ?>
 <node>
 	<full>true</full>
+	<dBug>true</dBug>
 	<master>
 		<host>127.0.0.1</host>
 		<windowX>0</windowX>
