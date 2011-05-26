@@ -1,7 +1,7 @@
 <?xml version ="1.0" encoding="utf-8" ?>
 <application xmlns="http://ns.adobe.com/air/application/2.0">
-	<id>quizMain</id>
-	<version>1.0</version>
+	<id>com.nestor.hcl.quiz</id>
+	<version>1.01</version>
 	<filename>quizMain</filename>
 	<description></description>
 	<!-- To localize the description, use the following format for the description element.
