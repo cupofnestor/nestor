@@ -1,0 +1,1 @@
+﻿package{	import flash.display.*;	import flash.net.*;	import flash.events.*;	public class glassMask extends graph	{	}}		

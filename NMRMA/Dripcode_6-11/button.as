@@ -1,0 +1,1 @@
+﻿package {	import flash.display.*;		public class button extends MovieClip	{		public function button():void		{				buttonMode = true;			useHandCursor = true;					}	}}
