@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;	import caurina.transitions.*;		public class swooper extends MovieClip {						public function swooper() {			// constructor code		}				private function swoop(newX:Number,newY:Number,newRoZ:Number):void		{			Tweener.addTween(this,{x:newX,y:newY,time:1,rotation:newRoZ});		}	}	}

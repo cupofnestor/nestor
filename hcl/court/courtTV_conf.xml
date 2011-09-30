@@ -16,7 +16,7 @@
 		<host>10.35.35.52</host>
 		<remote port="4504" string="toggleMode" ip="0.0.0.0" />
 		
-		<path>/courtTV</path>
+		<path>/courtTV/uploads</path>
 		<amfphp>
 			<port>80</port>
 			<gateway>/amfphp/gateway.php</gateway>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<config>
+    <wait>3000000</wait>
+    <mouse>false</mouse>
+	<net>
+		<host>hcl-server.newhaven.edu</host>
+		<path>/cases/uploads</path>
+		<amfphp>
+			<port>80</port>
+			<gateway>/amfphp/gateway.php</gateway>
+		</amfphp>
+		<sql>
+			<login>cases</login>
+			<pass>hcl</pass>
+		</sql>
+        <udp>
+            <host>127.0.0.1</host>
+            <port>4455</port>
+        </udp>
+	</net>
+</config>

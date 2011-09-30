@@ -1,0 +1,1 @@
+﻿package com.nestor.hcl.cases {	import flash.display.Sprite;	public class holder extends Sprite{		public var initScale;		public function holder() {					}	}	}
