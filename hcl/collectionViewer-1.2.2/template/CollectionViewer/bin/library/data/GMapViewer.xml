@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GMapViewer>
+	
+	<Content><!-- Sets the bounds and size for each map object populated to the application -->	
+		<Source id="1"><!-- Each source must have a unique ID -->
+			<longitude>-73.992062</longitude><!-- Sets the longitude of the map -->
+			<latitude>40.736072</latitude><!-- Sets the latitude of the map -->
+			<initialZoom>10</initialZoom><!-- Sets the initial zoom level of the map-->
+			<zoomStep>1</zoomStep><!-- Sets by what degrees the zoom augments when the zoom gesture is used -->
+			<initialAttitude>0</initialAttitude><!-- Sets how the map is rotated at launch relative to the frame -->
+			<initialTilt>0</initialTilt><!-- Sets the map tilt at launch relative to the frame -->
+			<initialType>1</initialType><!-- Sets the style of the map view. 0 is satellite, 1 is hybrid, 2 is street view map, 3 is terrain -->
+			<mapWidth>400</mapWidth><!-- Sets the display width of the map in pixels -->
+			<mapHeight>300</mapHeight><!-- Sets the display height of the map in pixels -->
+			<mapRotation>0</mapRotation><!-- Sets how the map object is rotated when put on the stage at launch -->
+		</Source>
+		
+		<Source id="2">
+			<longitude>-73.992062</longitude>
+			<latitude>40.736072</latitude>
+			<initialZoom>10</initialZoom>
+			<zoomStep>1</zoomStep>
+			<initialAttitude>0</initialAttitude>	
+			<initialTilt>0</initialTilt>
+			<initialType>2</initialType>
+			<mapWidth>450</mapWidth>
+			<mapHeight>450</mapHeight>
+			<mapRotation>0</mapRotation>
+		</Source>
+
+		<Source id="3">
+			<longitude>-73.992062</longitude>
+			<latitude>40.736072</latitude>
+			<initialZoom>10</initialZoom>
+			<zoomStep>1</zoomStep>
+			<initialAttitude>0</initialAttitude>	
+			<initialTilt>0</initialTilt>
+			<initialType>3</initialType>
+			<mapWidth>300</mapWidth>
+			<mapHeight>300</mapHeight>
+			<mapRotation>0</mapRotation>
+		</Source>
+	</Content>
+	
+	<GlobalSettings>
+		<apiKey>ABQIAAAAvoEijORmotz3BtwAGFjkqxT2yXp_ZAY8_ufC3CFXhHIE1NvwkxTbGZW23v40AKNN_b9rYUus_7WoGA</apiKey><!-- Your Google Maps API key -->
+		<amountToShow>1</amountToShow>
+	</GlobalSettings>
+
+	<FrameStyle><!-- Sets the style of the frame that surrounds each map -->
+		<frameDraw>true</frameDraw><!-- Sets whether or not an external frame is drawn -->
+		<padding>80</padding><!-- Sets the padding (width) of the frame around the map -->
+		<cornerRadius>20</cornerRadius><!-- Sets the radius of the frame's corners. Set to "0" for angular corners. -->
+		<fillColor1>0x888888</fillColor1><!-- Sets the fill color of the frame. Input a hex color value after 0x -->
+		<fillAlpha>0.55</fillAlpha><!-- Sets the opacity of the frame. 0 is completely transparent, 1 is fully opaque, .5 is half opaque, etc. -->
+		<outlineColor>0xFFFFFF</outlineColor><!-- Sets the outline color of the frame border -->
+		<outlineStroke>2</outlineStroke><!-- Sets the width of the border in pixels-->
+		<outlineAlpha>0.8</outlineAlpha><!-- Sets the opacity of the border -->
+	</FrameStyle>
+	
+	<MapGestures><!-- Sets which gestures can be used on the map itself. To avoid confusion, we suggest that if <tilt>, which rotates the map in 3D space, is set to "true", <rotate>, which rotates the map in 2D space, be set to "false." -->
+		<drag>true</drag>
+		<doubleTap>true</doubleTap>
+		<flick>true</flick>
+		<rotate>false</rotate>
+		<scale>true</scale>
+		<tilt>true</tilt><!-- Tilts the map in 3D space -->
+	</MapGestures>
+
+	<FrameGestures><!-- Sets which gestures can be used to manipulate the frame/map object on the stage -->
+		<drag>true</drag>
+		<rotate>true</rotate>
+		<scale>true</scale>
+	</FrameGestures>
+
+</GMapViewer>
