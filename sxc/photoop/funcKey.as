@@ -1,1 +1,0 @@
-﻿package com.nestor.elements {		import flash.display.MovieClip;			public class funcKey extends key {						public function funcKey() {			// constructor code		}	}	}

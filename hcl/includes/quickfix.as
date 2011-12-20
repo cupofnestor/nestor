@@ -1,1 +1,0 @@
-﻿stage.nativeWindow.activate();stage.nativeWindow.orderToBack();stage.nativeWindow.orderToFront();Mouse.hide();stage.nativeWindow.alwaysInFront = true;stage.displayState=StageDisplayState.FULL_SCREEN_INTERACTIVE;

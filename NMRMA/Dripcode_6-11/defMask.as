@@ -1,1 +1,0 @@
-﻿package{	import flash.display.*;	import flash.net.*;	import flash.events.*;	public class defMask extends graph	{	}}		

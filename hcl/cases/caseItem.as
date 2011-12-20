@@ -1,1 +1,0 @@
-﻿package com.nestor.hcl.cases {		import flash.display.MovieClip;	import flash.events.*;		public class caseItem extends MovieClip {		var myId:int;				public function caseItem(itemName:String,_id:int) {			myId=_id;			this.item.text=itemName;			this.addEventListener(Event.ADDED_TO_STAGE, init);		}				function init(e:Event):void		{					}			}	}

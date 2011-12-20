@@ -1,1 +1,0 @@
-﻿package {	import flash.display.MovieClip;	import com.greensock.TweenLite;		public class keyBlack extends MovieClip {						public function keyBlack() {			this.alpha=0;			this.mouseEnabled=false;		}		public function aChange(targ:Number) {			TweenLite.to(this,1,{alpha:targ});		}			}	}

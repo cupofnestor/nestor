@@ -1,1 +1,0 @@
-﻿import flash.ui.Mouse;import flash.display.StageDisplayState;import flash.display.Stage;

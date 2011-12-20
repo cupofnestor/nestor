@@ -1,1 +1,0 @@
-﻿package com.nestor.sxc.imap {		import flash.display.MovieClip;	import com.nestor.sxc.imap.UDPController;		public class timtest extends MovieClip {		var socket:UDPController;				public function timtest() {			// constructor code		}	}	}
