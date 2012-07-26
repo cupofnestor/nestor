@@ -1,3 +1,4 @@
 #can ignore specific files
 .DS_Store
 hcl/cases/assets/*
+.*

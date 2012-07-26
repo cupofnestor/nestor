@@ -1,0 +1,1 @@
+﻿package com.nestor.elements {		import flash.display.MovieClip;				public class led extends MovieClip {		public var myState:Boolean = false;		public function set status(b:Boolean):void		{			(b) ? gotoAndStop(1) : gotoAndStop(2);		}				public function led() {			// constructor code			status = myState;		}	}	}
